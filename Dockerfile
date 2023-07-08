@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM php:7.4.33-apache-bullseye
 
 # Install extensions
 RUN apt-get update && apt-get install -y \
